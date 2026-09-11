@@ -23,3 +23,10 @@ Recherche appliquée et documentation technique francophone sur les systèmes bl
 Chaque parcours part du code et de la documentation du dépôt source. Les chapitres distinguent les garanties réellement fournies, les hypothèses externes, les risques de mauvaise intégration et les vérifications à reproduire. Aucun résultat de compilation ou de test n est revendiqué sans exécution observée.
 
 *Open source, cryptographie appliquée et pédagogie technique en français.*
+
+
+## Focus Base et HyperEVM
+
+- [Système de preuves Base](https://github.com/CryptoAstuce/base/tree/main/docs/fr) — préimages, workers, backend ZK, TEE, soumission et contestation.
+- [Sécurité HyperEVM](https://github.com/CryptoAstuce/hyperevm-safety/tree/main/docs/fr) — fraîcheur des oracles, décimales, solvabilité, liquidations et invariants adverses.
+- [Traçabilité Hyperliquid](https://github.com/CryptoAstuce/hyperliquid-stats-web/tree/main/docs/fr) — chaîne source-transformation-affichage, précision et états dégradés.
