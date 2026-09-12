@@ -1,0 +1,9 @@
+[
+  {"id":"base-public-main","sha":"sim-base-001","author":"CryptoAstuce","visibility":"public","branch":"main","files":["docs/base.md"],"domain":"Base","is_merge":false},
+  {"id":"hyperliquid-public-main","sha":"sim-hyperliquid-001","author":"CryptoAstuce","visibility":"public","branch":"main","files":["docs/hyperliquid.md"],"domain":"Hyperliquid","is_merge":false},
+  {"id":"zk-public-main","sha":"sim-zk-001","author":"CryptoAstuce","visibility":"public","branch":"main","files":["docs/zk.md"],"domain":"ZK","is_merge":false},
+  {"id":"fhe-public-main","sha":"sim-fhe-001","author":"CryptoAstuce","visibility":"public","branch":"main","files":["docs/fhe.md"],"domain":"FHE","is_merge":false},
+  {"id":"private-rejected","sha":"sim-private-001","author":"CryptoAstuce","visibility":"private","branch":"main","files":["docs/notes.md"],"domain":"FHE","is_merge":false},
+  {"id":"feature-rejected","sha":"sim-feature-001","author":"CryptoAstuce","visibility":"public","branch":"feature","files":["docs/notes.md"],"domain":"ZK","is_merge":false},
+  {"id":"merge-rejected","sha":"sim-merge-001","author":"CryptoAstuce","visibility":"public","branch":"main","files":["docs/notes.md"],"domain":"Base","is_merge":true}
+]
