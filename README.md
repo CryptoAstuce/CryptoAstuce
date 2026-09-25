@@ -30,6 +30,10 @@ Chaque parcours part du code et de la documentation du dépôt source. Les chapi
 - [Sécurité HyperEVM](https://github.com/CryptoAstuce/hyperevm-safety/tree/main/docs/fr) — fraîcheur des oracles, décimales, solvabilité, liquidations et invariants adverses.
 - [Traçabilité Hyperliquid](https://github.com/CryptoAstuce/hyperliquid-stats-web/tree/main/docs/fr) — chaîne source-transformation-affichage, précision et états dégradés.
 
+## Parcours de lecture
+
+Les 99 fiches de [`docs/fr`](docs/fr/README.md) (STARK, FHE, Base, HyperEVM, Hyperliquid, invariants de risque, sécurité) sont regroupées par thème dans un [sommaire](docs/fr/README.md), avec pour chaque groupe le prototype correspondant.
+
 ## Prototype reproductible
 
-Le [mini-prototype de classification des commits](prototype/) fournit un moteur transparent et des tests sans dépendance externe pour comparer les critères publics avec un compteur externe comme Guild. Il couvre Base, Hyperliquid, ZK et FHE.
+Le [mini-prototype de classification des commits](prototype/) fournit un moteur transparent et des tests sans dépendance externe pour comparer les critères publics avec un compteur externe comme Guild. Il couvre Base, Hyperliquid, ZK et FHE. Le même dossier contient les prototypes pédagogiques cités dans les fiches (trace et FRI STARK, budget de bruit FHE, disponibilité des données, provenance Hyperliquid, invariants de risque) ; la CI exécute tous leurs tests.
