@@ -5,6 +5,9 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
@@ -13,6 +16,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run standard-library tests
+      - name: Run all standard-library tests
         working-directory: prototype
-        run: python -m unittest -v test_commit_classifier.py
+        run: python -m unittest discover -p "*.py" -v
+      - name: Run the prototype demos
+        working-directory: prototype
+        run: |
+          for f in *.py; do
+            case "$f" in test_*) continue ;; esac
+            python "$f" > /dev/null
+          done
